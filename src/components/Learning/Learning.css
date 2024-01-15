@@ -1,0 +1,29 @@
+.l-section {
+  display: flex;
+}
+.l-container {
+  padding: 4% 60% 3% 4%;
+  position: relative;
+}
+.l-content {
+  border-radius: 40px;
+}
+.l-content > :nth-child(1) {
+  float: right;
+  padding: 30px 30px;
+}
+.l-content > :nth-child(2) {
+  font-size: 60px;
+  font-weight: 500;
+  padding: 15rem 0 0 5rem;
+  width: 40%;
+}
+.l-content > :nth-child(3) {
+  height: 20rem;
+  padding-left: 8rem;
+}
+.image-container {
+  position: absolute;
+  right: 7rem;
+  top: 182rem;
+}

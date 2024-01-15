@@ -1,0 +1,29 @@
+.card-section{
+    padding-bottom: 3rem;
+}
+.card-container{
+    min-height: 280px;
+    margin: 0 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+}
+.c-left{
+    position: relative;
+}
+.c-left img{
+    position: absolute;
+    top: -90px;
+    left: -515px;
+}
+.c-right{
+    margin-right: -400px;
+}
+.c-right h4{
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.c-right button{
+    padding: 15px 25px 28px 25px;
+}

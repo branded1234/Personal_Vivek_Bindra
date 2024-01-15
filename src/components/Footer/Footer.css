@@ -1,0 +1,46 @@
+.footer-container{
+    padding: 1rem 3rem;
+    position: relative;
+}
+.f-container{
+    border-radius: 40px;
+}
+.f-content{
+    padding: 3rem 10rem;
+}
+.f-content h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+.f-content button{
+    font-size: 30px;
+    font-weight: 400;
+}
+.f-content .btn{
+    padding: 1.2rem 3rem;
+    max-height: none;
+    display: flex;
+    flex-direction: column;
+}
+.f-content img{
+    padding-top: 3rem;
+}
+.f-content p{
+    padding: 1.2rem 0 0 1rem;
+    color: rgb(71, 70, 70);
+}
+.f-end{
+    padding: 2rem 0 0 1rem;
+}
+.f-end span{
+    color: rgb(71, 70, 70);
+}
+.img-container{
+    position: absolute;
+    left: 1000px;
+    bottom: 60px;
+}
+.img-container img{
+    border-radius: 100%;
+    width: 60%;
+}

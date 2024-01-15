@@ -1,0 +1,36 @@
+.work-container{
+    padding: 4% 17% 8% 20%;
+}
+.work-container hr{
+    color: white;
+    background-color: white;
+    border-color: white;
+    height: 3px;
+}
+.w-container{
+    display: flex;
+    position: relative;
+}
+.w-left>:nth-child(1){
+    width: 320%;
+    padding: 0 0 0 3rem;
+}
+.w-right{
+    justify-content: flex-start;
+    padding: 4rem 4rem 4rem 20rem;
+}
+.w-right>:nth-child(1){
+    font-size: 30px;
+    padding-bottom: 1.5rem;
+}
+.arrows{
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    bottom: 1rem;
+    right: 2rem;
+}
+.arrows>img{
+    width: 1.5rem;
+    cursor: pointer;
+}

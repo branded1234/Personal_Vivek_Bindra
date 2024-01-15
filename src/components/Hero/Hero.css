@@ -1,0 +1,71 @@
+.hero-section{
+    padding: 2rem 8rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+.h-large{
+    padding-top: 2rem;
+    font-size: 50px;
+    font-weight: 900;
+}
+.h-large img{
+    position: absolute;
+    z-index: -1;
+    top: 190px;
+    right: 400px;
+}
+.h-small{
+    padding-top: 2rem;
+    margin-left: -40px;
+    font-size: 15px;
+}
+.h-small h3{
+    text-align: start;
+    padding-bottom: 1.8rem;
+    font-weight: 500;
+}
+.h-small button{
+    margin-left: 10px;
+    max-height: 40px;
+    border-radius: 5rem;
+    padding: 10px 16px;
+    font-weight: 700;
+    font-size: 14px;
+    transition: 0.3s ease-in-out;
+}
+button:hover{
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    scale: 1.1;
+}
+.h-small a{
+    margin-left: 30px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #000;
+}
+.h-small a:after {
+    content: "";
+  position: absolute;
+  z-index: -1;
+  top: 505px;
+  left: 52.2%;
+  right: 100%;
+  bottom: -5px;
+  max-width: 7%;
+  background: #000;
+  height: 3px;
+  transition-property: left right;
+  transition-duration: 1.5s;
+  transition-timing-function: ease-out;
+}
+.h-small a:hover:after,
+.h-small a:focus:after,
+.h-small a:active:after {
+  right: 0;
+}

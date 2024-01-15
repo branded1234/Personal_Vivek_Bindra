@@ -1,0 +1,90 @@
+.nav-section{
+    padding: 1rem 8rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-class{
+    max-height: 40px;
+    background-color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 15px;
+    border-radius: 20rem;
+    position: fixed;
+    margin-left: 400px;
+    z-index: 99;
+}
+.nav-class a{
+    margin: 8px 30px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    color: #7f7e7e;
+    z-index: 2;
+}
+.btn{
+    max-height: 40px;
+    margin-top: 15px;
+    border-radius: 5rem;
+    padding: 4px 16px;
+    font-weight: 700;
+    font-size: 12px;
+    transition: 0.3s ease-in-out;
+}
+.btn:hover{
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    scale: 1.1;
+}
+#loader{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    transition: all ease 0.7s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#loader h1{
+    font-size: 6vw;
+    color: transparent;
+    background: linear-gradient(to right,#efd6beed,#b58372f1);
+    -webkit-background-clip: text;
+    position: absolute;
+    opacity: 0;
+    animation-name: load;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+}
+#loader h1:nth-child(2){
+    animation-delay: 2s;
+}
+#loader h1:nth-child(3){
+    animation-delay: 3s;
+}
+#loader h1:nth-child(4){
+    animation-delay: 4s;
+}
+
+@keyframes load {
+    0%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
